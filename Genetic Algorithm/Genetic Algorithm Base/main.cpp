@@ -1,17 +1,16 @@
 #include <iostream>
 #include <stdlib.h>
 #include <time.h>
-#include "DNA.h"
+#include "Population.h"
 
 using namespace std;
 
 int main()
 {
-	DNA dna;
-	for (int i = 0; i < 200; i++)
+	Population pop;
+	/*for (int i = 0; i < 100; i++)
 	{
-		dna.mutateDNA();
-		//cout << dna << endl;
-	}
+		pop.getDNA();
+	}*/
 	return 0;
 }
