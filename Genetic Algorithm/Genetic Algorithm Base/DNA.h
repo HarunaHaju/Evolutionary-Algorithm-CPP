@@ -12,9 +12,11 @@ public:
 
 	double translateDNA();
 	void mutateDNA();
+	void setDNA(int index, char ch);
 
 	friend ostream& operator<<(ostream &out, DNA& dna);
 	char operator[](int index);
+	DNA& operator=(DNA& dna);
 private:
 	char* dnaChain;
 };
